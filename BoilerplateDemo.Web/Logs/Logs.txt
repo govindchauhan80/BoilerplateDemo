@@ -1,0 +1,102 @@
+DEBUG 2016-03-01 19:58:00,065 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-03-01 19:58:07,789 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-03-01 19:58:07,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-01 19:58:07,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-01 19:58:07,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-01 19:58:07,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-01 19:58:07,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-01 19:58:07,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-01 19:58:07,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-01 19:58:07,808 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-01 19:58:07,808 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerplateDemo.BoilerplateDemoApplicationModule, BoilerplateDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-01 19:58:07,809 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerplateDemo.BoilerplateDemoCoreModule, BoilerplateDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-01 19:58:07,809 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerplateDemo.BoilerplateDemoDataModule, BoilerplateDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-01 19:58:07,809 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerplateDemo.Web.BoilerplateDemoWebModule, BoilerplateDemo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-01 19:58:07,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerplateDemo.Api.BoilerplateDemoWebApiModule, BoilerplateDemo.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-01 19:58:07,864 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-03-01 19:58:07,986 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-03-01 19:58:07,987 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-03-01 19:58:07,987 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-03-01 19:58:07,987 [1    ] o.Configuration.LanguageManagementConfig - Converted BoilerplateDemo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-03-01 19:58:19,082 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-03-01 19:58:19,164 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-03-01 19:58:19,165 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-03-01 19:58:19,169 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-03-01 19:58:19,172 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BoilerplateDemo
+DEBUG 2016-03-01 19:58:26,798 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2016-03-01 19:58:26,798 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BoilerplateDemo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-03-01 19:58:27,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BoilerplateDemo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-03-01 19:58:27,196 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BoilerplateDemo.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-03-01 19:58:27,199 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BoilerplateDemo.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-03-01 19:58:27,299 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'BoilerplateDemo.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-03-01 19:58:27,301 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'BoilerplateDemo.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-03-01 19:58:27,304 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'BoilerplateDemo.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-03-01 19:58:27,306 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'BoilerplateDemo.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-03-15 17:04:47,189 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-03-15 17:04:53,278 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-03-15 17:04:53,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-15 17:04:53,306 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-15 17:04:53,307 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-15 17:04:53,307 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-15 17:04:53,308 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-15 17:04:53,308 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-15 17:04:53,308 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-15 17:04:53,308 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-15 17:04:53,309 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerplateDemo.BoilerplateDemoApplicationModule, BoilerplateDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-15 17:04:53,309 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerplateDemo.BoilerplateDemoCoreModule, BoilerplateDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-15 17:04:53,309 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerplateDemo.BoilerplateDemoDataModule, BoilerplateDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-15 17:04:53,310 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerplateDemo.Web.BoilerplateDemoWebModule, BoilerplateDemo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-15 17:04:53,310 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerplateDemo.Api.BoilerplateDemoWebApiModule, BoilerplateDemo.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-15 17:04:53,325 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-03-15 17:04:53,438 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-03-15 17:04:53,438 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-03-15 17:04:53,438 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-03-15 17:04:53,438 [1    ] o.Configuration.LanguageManagementConfig - Converted BoilerplateDemo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-03-15 17:05:04,686 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-03-15 17:05:04,763 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-03-15 17:05:04,765 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-03-15 17:05:04,767 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-03-15 17:05:04,769 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BoilerplateDemo
+DEBUG 2016-03-15 17:05:08,289 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2016-03-15 17:05:08,289 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BoilerplateDemo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-03-15 17:05:08,806 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BoilerplateDemo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-03-15 17:05:08,830 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BoilerplateDemo.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-03-15 17:05:08,832 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BoilerplateDemo.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-03-15 17:05:08,943 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'BoilerplateDemo.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-03-15 17:05:08,945 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'BoilerplateDemo.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-03-15 17:05:08,946 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'BoilerplateDemo.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-03-15 17:05:08,949 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'BoilerplateDemo.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-03-29 23:59:47,837 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-03-30 00:00:06,816 [1    ] Abp.Modules.AbpModuleManager             - Found 13 ABP modules in total.
+DEBUG 2016-03-30 00:00:06,839 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-30 00:00:06,849 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-30 00:00:06,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-30 00:00:06,851 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-30 00:00:06,852 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-30 00:00:06,853 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.7.7.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-30 00:00:06,854 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-30 00:00:06,854 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.7.7.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-30 00:00:06,855 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerplateDemo.BoilerplateDemoApplicationModule, BoilerplateDemo.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-30 00:00:06,856 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerplateDemo.BoilerplateDemoCoreModule, BoilerplateDemo.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-30 00:00:06,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerplateDemo.BoilerplateDemoDataModule, BoilerplateDemo.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-30 00:00:06,857 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerplateDemo.Web.BoilerplateDemoWebModule, BoilerplateDemo.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-30 00:00:06,858 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: BoilerplateDemo.Api.BoilerplateDemoWebApiModule, BoilerplateDemo.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-03-30 00:00:07,024 [1    ] Abp.Modules.AbpModuleManager             - 13 modules loaded.
+DEBUG 2016-03-30 00:00:07,115 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-03-30 00:00:07,115 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-03-30 00:00:07,116 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-03-30 00:00:07,116 [1    ] o.Configuration.LanguageManagementConfig - Converted BoilerplateDemo (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-03-30 00:00:16,829 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-03-30 00:00:16,898 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-03-30 00:00:16,899 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-03-30 00:00:16,901 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-03-30 00:00:16,904 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: BoilerplateDemo
+DEBUG 2016-03-30 00:00:21,028 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 4 classes defines auto mapping attributes
+DEBUG 2016-03-30 00:00:21,029 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BoilerplateDemo.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-03-30 00:00:21,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BoilerplateDemo.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-03-30 00:00:21,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BoilerplateDemo.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-03-30 00:00:21,665 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - BoilerplateDemo.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-03-30 00:00:21,834 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'BoilerplateDemo.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-03-30 00:00:21,838 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'BoilerplateDemo.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-03-30 00:00:21,842 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'BoilerplateDemo.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-03-30 00:00:21,846 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'BoilerplateDemo.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
